@@ -13,12 +13,6 @@
       "name": "YoloStories"
     }
   ],
-  "packFolders": [
-    {
-      "name": "Yolo's Spiritcaller Class",
-      "sorting": "a"
-    }
-  ],
   "packs": [
     {
       "name": "pf2e-spiritcaller-class",
