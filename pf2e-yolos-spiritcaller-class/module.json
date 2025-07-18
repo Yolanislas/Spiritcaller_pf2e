@@ -1,0 +1,77 @@
+{
+  "id": "pf2e-yolos-spiritcaller-class",
+  "title": "PF2e Yolo's Spiritcaller Class",
+  "version": "1.0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "manifest": "https://raw.githubusercontent.com/Yolanislas/Spiritcaller_pf2e/main/pf2e-spiritcaller-class/module.json",
+  "download": "https://github.com/Yolanislas/Spiritcaller_pf2e/archive/refs/heads/main.zip",
+  "authors": [
+    {
+      "name": "YoloStories",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "pf2e-spiritcaller-class",
+      "label": "PF2e Spiritcaller Class",
+      "path": "packs/pf2e-spiritcaller-class",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spirits-tokens",
+      "label": "Spirit Tokens",
+      "path": "packs/spirits-tokens",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spirits-macros",
+      "label": "Spirit Macros",
+      "path": "packs/spirits-macros",
+      "type": "Macro",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "flags": {
+    "pf2e-yolos-spiritcaller-class": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "spiritcaller": "Spiritcaller"
+        },
+        "spellTraits": {
+          "expend": "Expend"
+        }
+      }
+    }
+  },
+  "packFolders": [
+    {
+      "name": "PF2e Spiritcaller Class",
+      "sorting": "m",
+      "packs": [
+        "pf2e-spiritcaller-class",
+"spirits-tokens",
+        "spirits-macros"
+      ],
+      "color": "#3a7287",
+      "folders": []
+    }
+  ]
+}

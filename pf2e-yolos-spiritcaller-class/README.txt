@@ -1,0 +1,5 @@
+This is the version 2 of the module.
+- Harmonies'possessions (the subclass class features) are not automaticly put into the character sheet. Please be cautious to add them manually according to your class level.
+- To facilitate the spirits gameplay, you have access to one macro to help you perform their "turn", you must have the spirit class features into your sheet (thought its should be automatic when you get the class features or feats). However, you can also add the spirits effects as a cantrip (their are in the "Spirits" Folder. One token has been created to put your spirits on the grid, this is just a test token, has i can't built inside its attack and or effects. You can just put this token and rename it as your summoned spirits, but use the macro to use your spirits.
+
+I'll try my best to find ways to implement this better, but i have no clue at the moment. Thank you!
